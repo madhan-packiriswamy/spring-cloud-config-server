@@ -1,9 +1,9 @@
 server:
   port: 8081
 spring:
-  application:
-    name: app1
+  profiles: dev1
   datasource:
     url: 'jdbc:mysql://localhost:3306/app1db'
     username: app1user
     password: app1pass
+
