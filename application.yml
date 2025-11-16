@@ -1,11 +1,4 @@
-server:
-  port: 8072
-  
-eureka:
-  instance:
-    preferIpAddress: true
-  client:
-    registerWithEureka: true
-    fetchRegistry: true
-    serviceUrl:
-      defaultZone: "http://localhost:8070/eureka/"
+kafka:
+  clusterUrl: 'kafka://broker1:9092,broker2:9092,broker3:9092'
+  username: kafkaUser
+  password: kafkaPwd
